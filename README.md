@@ -43,12 +43,13 @@ The project demonstrates real-world cloud security principles including least-pr
   - CloudWatch log retention configured
 
 ---
-
+Response
 ## 🧪 API Endpoints
 
 ### `POST /shorten` (Authenticated)
 Creates a short URL.
 
+**Request**
 ```json
 {
   "url": "https://example.com"
